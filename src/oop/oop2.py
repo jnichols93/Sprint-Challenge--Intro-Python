@@ -38,7 +38,7 @@ myM = Motorcycle()
 myG.drive()
 myM.drive()
 print("GroundVehicle:", myG)
-print("Motorchcyle:", myM)
+print("Motorcycle:", myM)
 vehicles = [
     GroundVehicle(),
     GroundVehicle(),
