@@ -63,8 +63,6 @@ for x in range(len(cities)):
     print(cities[x])
 """
 # print(RecordList(cities))
-
-# RecordList(cities)
 # STRETCH GOAL!
 #
 # Allow the user to input two points, each specified by latitude and longitude.
