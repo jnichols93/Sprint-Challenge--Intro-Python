@@ -8,12 +8,7 @@
 # In the body of the `cityreader` function, use Python's built-in "csv" module
 # to read this file so that each record is imported into a City instance. Then
 # return the list with all the City instances from the function.
-# Google "python 3 csv" for references and use your Google-fu for other examples.
-#
-# Store the instances in the "cities" list, below.
-#
-# Note that the first line of the CSV is header that describes the fields--this
-# should not be loaded into a City object.
+#Resources used
 # https://docs.python.org/3/library/csv.html
 import csv
 
@@ -32,7 +27,7 @@ class City:
 # `cities` list
 
 # return cities
-
+# row 0 = cityname, row3=lat row4=lon
 
 cities = []
 
@@ -42,7 +37,7 @@ def cityreader(cities=[]):
         next(f)
         reader = csv.reader(f)
         for row in reader:
-            cities.append(City(row[0], row[3], row[4]))
+            cities.append(City(row[0], row[3], row[4])) 
         return cities
 
 

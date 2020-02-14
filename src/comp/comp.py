@@ -26,7 +26,7 @@ humans = [
 # whose name starts with 'D':
 # https://www.daniweb.com/programming/software-development/code/216631/a-list-of-class-objects-python
 # i is not iterable?
-a = [thing.name for thing in humans if thing.name[0] == "D"]
+a = [human.name for human in humans if human.name[0] == "D"]
 print(a)
 
 # Write a list comprehension that creates a list of names of everyone
